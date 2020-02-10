@@ -1,0 +1,49 @@
+
+body{
+	font-family: source sans pro;
+}
+
+body {
+
+	border: 20px solid #bdc3c7;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+
+
+}
+
+h2 {
+	color: 2c3e50;
+	font-size: 2.0rem;
+}
+h4{
+	letter-spacing: 0.2rems;
+	color: blue;
+}
+
+div:nth-of-type(1) {
+
+	border-left:3px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+div:nth-of-type(2) {
+
+	border-bottom: 3px solid grey;
+	padding-bottom: 1px; /*much better option for the line below the paragraph 3 i by using the "hr" tag*/
+}
+
+div:nth-of-type(3) {
+
+	border-left:3px solid bdc3c7;
+	padding-left: 5px;
+	
+}
+
+div:nth-of-type(4) {
+
+	border-bottom: 3px solid grey;
+	padding-bottom: 1px;
+}
